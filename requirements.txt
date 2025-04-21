@@ -1,0 +1,20 @@
+# Core numerical & data
+numpy>=1.24
+pandas>=1.5
+
+# Scikit‑Learn ecosystem
+scikit-learn>=1.2
+scipy>=1.10
+
+# Boosted trees
+xgboost>=1.7
+
+# PyTorch
+torch>=2.0
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Utilities
+joblib>=1.3
