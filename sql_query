@@ -1,0 +1,25 @@
+WITH ranked_events AS (
+  SELECT
+    injuries_direct,
+    deaths_direct,
+    event_latitude,
+    event_longitude,
+    event_range,
+    event_type,
+    event_begin_time,
+    event_end_time,
+    damage_property,
+    ROW_NUMBER() OVER (PARTITION BY event_type ORDER BY event_begin_time DESC) AS rn
+  FROM
+    `bigquery-public-data.noaa_historic_severe_storms.storms_*`
+  WHERE 
+    event_type IN ("thunderstorm wind", "hail", "tornado", "heavy snow", "flash flood")
+    AND event_latitude IS NOT NULL
+    AND event_longitude IS NOT NULL
+    AND event_range IS NOT NULL
+    AND (NOT injuries_direct=0 OR NOT deaths_direct=0)
+)
+
+SELECT *
+FROM ranked_events
+WHERE rn <= 200
