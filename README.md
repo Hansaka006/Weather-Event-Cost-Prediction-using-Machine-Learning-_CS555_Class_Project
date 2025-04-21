@@ -12,7 +12,7 @@ Thanks to everyone who’s contributed to this project!
   
 - **Hansaka Aluvihare** (architecture design, code organization)
   
-- **Marcus Elden** (feature engineering, hyperparameter tuning)
+- **Marcus Chuaunsu** (feature engineering, hyperparameter tuning)
   
 - **Dean D’Cruz** (visualization, documentation)
 
@@ -48,6 +48,10 @@ Models are saved under `Models/`.
    ```bash
    git clone https://github.com/<your‑org>/<your‑repo>.git
    cd <your‑repo>
+
+## 🚀 Data
+
+- To access data, go to https://console.cloud.google.com/bigquery?sq=1073493072202:4b562ee03ad544988fef15d39c603123&project=backend-ddc25&ws=!1m8!1m7!8m2!1s1073493072202!2s4b562ee03ad544988fef15d39c603123!14m3!1sbackend-ddc25!2sbquxjob_4517aed0_194d870b3b4!3sUS and use the query found in sql_query
 
 # If you use this work, please cite:
 
