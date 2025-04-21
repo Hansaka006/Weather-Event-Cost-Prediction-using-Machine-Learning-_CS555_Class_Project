@@ -1,7 +1,10 @@
 # AI Weather Event Detection
 
-**Authors:** CONRAD PRISBY | Hansaka ALUVIHARE | MARCUS ELDEN | DEAN DCRUZ
+**Authors:** Conrad Prisby • Hansaka Aluvihare • Marcus Elden • Dean D’Cruz 
 **Project:** Multi‑model Weather Event Cost Prediction (Flash floods, Hail, Tornado, Thunderstorm)
+
+---
+# If you use this work, please cite:
 
 ---
 
