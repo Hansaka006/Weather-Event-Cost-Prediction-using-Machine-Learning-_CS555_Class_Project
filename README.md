@@ -9,11 +9,11 @@
 Thanks to everyone who’s contributed to this project!
 
 - **Conrad Prisby** (data pipeline, model evaluation)
-- 
+  
 - **Hansaka Aluvihare** (architecture design, code organization)
-- 
+  
 - **Marcus Elden** (feature engineering, hyperparameter tuning)
-- 
+  
 - **Dean D’Cruz** (visualization, documentation)
 
 ---
