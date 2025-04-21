@@ -1,6 +1,6 @@
 # AI Weather Event Detection
 
-**Authors:** Hansaka Aluvihare, ...  
+**Authors:** CONRAD PRISBY | Hansaka ALUVIHARE | MARCUS ELDEN | DEAN DCRUZ
 **Project:** Multi‑model Weather Event Cost Prediction (Flash floods, Hail, Tornado, Thunderstorm)
 
 ---
@@ -35,20 +35,18 @@ Models are saved under `Models/`.
    cd <your‑repo>
 
 File Structure
-```bash
-├── Models/                     # saved .pkl/.pt model files
-├── All_in_one_without_log.ipynb
-├── Flash_Floods_Training.ipynb
-├── Hail_Training.ipynb
-├── Tornado_Training.ipynb
-├── thunderstorm_training.ipynb
-├── data_source.csv
-├── dataset_source.csv
-├── requirements.txt
-├── Makefile
-├── LICENSE
-└── README.md
-
-
+   ```bash
+   ├── Models/                     # saved .pkl/.pt model files
+   ├── All_in_one_without_log.ipynb
+   ├── Flash_Floods_Training.ipynb
+   ├── Hail_Training.ipynb
+   ├── Tornado_Training.ipynb
+   ├── thunderstorm_training.ipynb
+   ├── data_source.csv
+   ├── dataset_source.csv
+   ├── requirements.txt
+   ├── Makefile
+   ├── LICENSE
+   └── README.md
 
 
