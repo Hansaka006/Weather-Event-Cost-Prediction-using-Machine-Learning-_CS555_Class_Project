@@ -17,18 +17,6 @@ Thanks to everyone who’s contributed to this project!
 - **Dean D’Cruz** (visualization, documentation)
 
 ---
-# If you use this work, please cite:
-
-### BibTeX
-
-```bibtex
-@techreport{prisby2025multi,
-  author       = {Prisby, Conrad and Aluvihare, Hansaka and Elden, Marcus and D'Cruz, Dean},
-  title        = {Multi-model Weather Event Classification},
-  institution  = {Embry-Riddle Aeronautical University},
-  year         = {2025},
-  type         = {Technical Report}
-}
 
 ---
 
@@ -61,19 +49,18 @@ Models are saved under `Models/`.
    git clone https://github.com/<your‑org>/<your‑repo>.git
    cd <your‑repo>
 
-File Structure
-   ```bash
-   ├── Models/                     # saved .pkl/.pt model files
-   ├── All_in_one_without_log.ipynb
-   ├── Flash_Floods_Training.ipynb
-   ├── Hail_Training.ipynb
-   ├── Tornado_Training.ipynb
-   ├── thunderstorm_training.ipynb
-   ├── data_source.csv
-   ├── dataset_source.csv
-   ├── requirements.txt
-   ├── Makefile
-   ├── LICENSE
-   └── README.md
+# If you use this work, please cite:
+
+### BibTeX
+
+```bibtex
+@techreport{prisby2025multi,
+  author       = {Prisby, Conrad and Aluvihare, Hansaka and Elden, Marcus and D'Cruz, Dean},
+  title        = {Multi-model Weather Event Classification},
+  institution  = {Embry-Riddle Aeronautical University},
+  year         = {2025},
+  type         = {Technical Report}
+}
+
 
 
