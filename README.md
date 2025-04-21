@@ -19,6 +19,17 @@ Thanks to everyone who’s contributed to this project!
 ---
 # If you use this work, please cite:
 
+### BibTeX
+
+```bibtex
+@techreport{prisby2025multi,
+  author       = {Prisby, Conrad and Aluvihare, Hansaka and Elden, Marcus and D'Cruz, Dean},
+  title        = {Multi-model Weather Event Classification},
+  institution  = {Embry-Riddle Aeronautical University},
+  year         = {2025},
+  type         = {Technical Report}
+}
+
 ---
 
 ## 🚀 Overview
